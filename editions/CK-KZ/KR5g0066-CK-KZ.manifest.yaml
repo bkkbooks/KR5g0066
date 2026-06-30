@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0066/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0066/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 群仙要語纂集
+  date: '2015-08-29 02:53:38.098454'
+  source:
+    repository: kanripo
+    path: KR5g0066
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0066_000-CK-KZ.yaml, hash: 'sha256:fa3279c7ac99bd93911d50786f090111c14c51ddd0263f5c1f4c18810d25b0fe'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0066_000-CK-KZ.markers.yaml, hash: 'sha256:c8b51875fa44849f1b72c839a869ccb4fd3ecb59c5301688c77058965261fe28'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0066_CK-KZ_01p001a
+    span:
+    - body
+    - 0
+    - 910
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:24345428733f7faf83a0764439f650918ed90d295984b0ef992ccbad8dcd585e

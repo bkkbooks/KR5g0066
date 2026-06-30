@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR5g0066/v1
+canonical_location: https://kanripo.org/bkk/KR5g0066/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 群仙要語纂集
+  identifiers:
+    alt_id:
+    - DZ1257
+    - JY173
+  date: '2015-08-29 02:53:38.098454'
+  source:
+    repository: kanripo
+    path: KR5g0066
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: YP-C
+  label: 【原版道藏輯要】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0066_000.yaml, hash: 'sha256:5b421d319c45203f3b2e2e8805cfb76b811cc2becc4d75ad80cfb8e93f4b5f16'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0066_000.markers.yaml, hash: 'sha256:fbe3abafdf2b3a12fb267583336a8117106575084892c89e841a707a5fd1853a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0066_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 12826
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4874fcf72fbd6d5c6fbc42c47c752749bca5aeebc34b9380d74771ed7c48cf3c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
